@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Khatabook</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="category_overview">Name</string>
+    <string name="hint_customer_name">Enter name</string>
+    <string name="editor_activity_title_new_customer">Add New Cutomer</string>
+    <string name="Contact_no">Mobile No.</string>
+    <string name="hint_contact_no">Enter mobile no</string>
+    <string name="documents_label">Select Services</string>
+    <string name="documents_income">Income Certificate</string>
+    <string name="documents_cast">Cast certificate</string>
+    <string name="documents_non_criminal">Non Creamylayer</string>
+    <string name="documents_nationality">Nationality</string>
+    <string name="documents_domecile">Domicile</string>
+    <string name="documents_central_cast">Central Cast</string>
+    <string name="documents_adhar">Adhar card</string>
+    <string name="documents_pan">Pan Card</string>
+    <string name="category_Payment">Total amount</string>
+    <string name="hint_customer_bill">Enter total payable amount</string>
+    <string name="hint_customer_paid">amount paid by cutomer</string>
+    <string name="category_paid">Paid amount</string>
+    <string name="action_search">Search</string>
+    <string name="action_delete_all_entries">Delete All</string>
+    <string name="action_save">save</string>
+    <string name="action_delete">Delete</string>
+    <string name="editor_insert_Customer_failed">Error to Insert Customer</string>
+    <string name="editor_insert_customer_successful">Customer added Successfully</string>
+    <string name="empty_view_title_text">No Customer is Added</string>
+    <string name="empty_view_subtitle_text">Get Started by adding customer</string>
+    <string name="addCutomer">Add Customer</string>
+    <string name="edit_Customer">Edit Customer</string>
+    <string name="editor_update_customer_failed">Update failed</string>
+    <string name="editor_update_customer_successful">Update Sucessful</string>
+    <string name="editor_delete_failed">Task Failed</string>
+    <string name="editor_delete_successful">Customer Deleted</string>
+    <string name="delete_dialog_msg">Are you Sure?</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="app_label">search</string>
+    <string name="search_hint">Enter customer name</string>
+    <string name="on_start">By, Mayur Sapkale</string>
+</resources>

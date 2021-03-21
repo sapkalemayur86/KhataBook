@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".AddCustomer">
+
+    <!-- Overview category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/category_overview"
+            style="@style/CategoryStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_customer_name"
+                android:hint="@string/hint_customer_name"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/Contact_no"
+            style="@style/CategoryStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_contact_no"
+                android:hint="@string/hint_contact_no"
+                android:inputType="phone"
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+      </LinearLayout>
+
+    <!-- documents category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/documents_label"
+            style="@style/CategoryStyle" />
+
+        <!-- Documents fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <CheckBox android:id="@+id/checkbox_income"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/documents_income"
+                android:layout_marginTop="15dp"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_cast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/documents_cast"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_non_criminal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/documents_non_criminal"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_nationality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/documents_nationality"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_domecile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/documents_domecile"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_central_cast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/documents_central_cast"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_adhar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/documents_adhar"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_pan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/documents_pan"
+                android:onClick="onCheckboxClicked"/>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    <!-- payment category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/category_Payment"
+            style="@style/CategoryStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_customer_total_amount"
+                android:hint="@string/hint_customer_bill"
+                android:inputType="number"
+                style="@style/EditorFieldStyle" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- payment category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/category_paid"
+            style="@style/CategoryStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_customer_paid_amount"
+                android:hint="@string/hint_customer_paid"
+                android:inputType="number"
+                style="@style/EditorFieldStyle" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
