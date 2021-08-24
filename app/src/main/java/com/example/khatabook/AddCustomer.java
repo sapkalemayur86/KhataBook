@@ -251,7 +251,7 @@ public class AddCustomer extends AppCompatActivity implements LoaderManager.Load
                 break;
             case R.id.checkbox_domecile:
                 if (checked){
-                    documents=documents+"Domicile ";
+                    documents=documents+"Domicille ";
                 }
                 break;
             case R.id.checkbox_central_cast:
